@@ -14,7 +14,7 @@ source venv/bin/activate
 # Install requirements
 if [ -f "requirements.txt" ]; then
   echo "Installing requirements..."
-  pip install -r requirements.txt
+  pip3 install -r requirements.txt
 else
   echo "requirements.txt not found. Skipping requirements installation."
 fi
